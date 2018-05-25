@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1 width=device-width">
+  <title>Fundación Niños y Cáncer - Noticias</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--menú-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="images/fnyc.svg" alt="logo" class="logo"></a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+
+            <li><a href="index.html" class="text-muted">Inicio</a></li>
+            <li><a href="nosotros.html" class="text-muted">Nosotros</a></li>
+            <li><a href="noticias.html" class="text-muted">Noticias</a></li>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Carrusel-->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img class="first-slide" src="images/becas.jpg" alt="First slide" style="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Becas.</h1>
+            <p>Este año 2018 se otorgaron un total de 28 becas, de las cuales 15 corresponden alumnos antiguos y 13 son para aquellos que inician sus estudios superiores.</p>
+            <p><a class="btn btn-lg btn-primary" href="noticias.html" role="button">Leer más</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="second-slide" src="images/zumbaton.jpg" alt="Second slide" style="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Zumbaton.</h1>
+            <p>Al ritmo de la salsa y el reggaetón se dio término al IX Congreso Latinoamericano de Cuidados Paliativos de la Asociación Latinoamericana de Cuidados Paliativos.</p>
+            <p><a class="btn btn-lg btn-primary" href="noticias.html" role="button">Leer más</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="third-slide" src="images/torneo1.jpg" alt="Third slide" style="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Torneo.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="noticias.html" role="button">Leer más</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--Noticias-->
+  <div class="container">
+
+    <div class="blog-header">
+      <h1 class="blog-title">Blog de Noticias</h1>
+      <p class="lead blog-description">Este blog nos mantendrá informados de todo el acontecer de nuestra fundación.</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-8 blog-main">
+
+        <div class="blog-post" id="noticias-becas">
+          <img src="images/becas.jpg" alt="becas">
+          <h2 class="blog-post-title">ENTREGA DE BECAS PARA ESTUDIOS SUPERIORES</h2>
+          <p class="blog-post-meta">25 de Abril<a href="#noticias-becas"></a></p>
+          <p>Con mucho orgullo, debemos anunciar que este año 2018 se otorgaron un total de 28 becas, de las cuales 15 corresponden alumnos antiguos y 13 son para aquellos que inician sus estudios superiores. Esto es posible gracias al aporte anual de la Fundación, que para este año alcanzó un monto aproximado de 40 millones de pesos.
+            El objetivo de este proyecto es beneficiar a jóvenes recuperados de cáncer y también a quienes que, por razones de su tratamiento, tuvieron que dejar pendientes sus estudios, dándoles la posibilidad de obtener su título profesional para reinsertarse laboralmente en la sociedad.
+            Los jóvenes seleccionados de este año que cursan carreras tan diferentes como Danza, Psicología, Informática, Ingeniería Comercial, Mecánica Automotriz, entre otras, son pacientes de los hospitales Luis Calvo Mackenna, San Juan de Dios, Roberto Del Río, Sótero Del Río, Van Buren, San Borja Arriarán, Gustavo Fricke, Clínica Dávila, Hospital de Valdivia y CES Juan Pablo II.
+            Así mismo este año, también se otorgaron tres aportes sociales a alumnos que por su rendimiento ya poseen otro tipo de becas. Este dinero es una forma de ayudarlos en sus gastos personales.
+            Los requisitos de postulación para las becas se encuentran en nuestra página web <a href="https://www.fundacionninoycancer.cl">www.fundacionninoycancer.cl</a> en el menú principal Becas.
+            Para mayor información o en caso de cualquier duda, consultar a <a href="#">fundacion@ninoycancer.cl</a>  o los teléfonos 22170821- 22170820</p>
+          </div>
+
+          <div class="blog-post" id="noticias-zumbaton">
+            <img src="images/zumbaton.jpg" alt="zumbaton">
+            <h2 class="blog-post-title">ZUMBATON DE CIERRE EN EL IX CONGRESO LATINOAMERICANO DE CUIDADOS PALITIVOS</h2>
+            <p class="blog-post-meta">24 de Abril<a href="#noticias-zumbaton"></a></p>
+            <p>Al ritmo de la salsa y el reggaetón se dio término al IX Congreso Latinoamericano de Cuidados Paliativos de la Asociación Latinoamericana de Cuidados Paliativos (ALCP), el que se realizó, entre el 11 y el 14 de abril, en el Centro de Convenciones del Hotel Marriott de Santiago.
+              El cierre del congreso, llamada “Zumbatón” fue organizada por la Fundación Niño y Cáncer en conjunto con Zumba Chile, representada por la profesora certificada Valeska Torres.
+              El lema en esta ocasión del congreso –que se realiza cada 2 años-, fue “Cuidados Paliativos para todos”, el que busca acompañar, en su proceso de duelo, a las familias que han perdido a un hijo(a) a causa de una enfermedad limitante de la vida.
+              Cuando hablamos de acompañamiento en duelo, tiende a pensarse en un momento de dolor y tristeza, sin embargo con la “Zumbatón” quedó demostrado que se puede acompañar y recordar a nuestros seres queridos en una forma más lúdica, devolviéndole a los familias, por un instante, una sonrisa y momento de alegría en memoria de sus hijos.
+              Predomino durante la actividad el árbol -diseñado por Bernardita Domeyko-, el que sus ramas poco a poco fueron recibiendo las fotos y nombres de los niños, cuyas familias quisieron recordar de una manera diferente. En este emotivo homenaje¸ dieron sus testimonios las familias de los niños Benjamín Córdova Guzmán, Martina Pueyes Oliva; Fernanda Rosales Jofré y Jordan Labarca Orellana.
+              Colaboraron también en esta actividad Constanza Briones, Patricia Soto, Fanny Castañeda, Sebastián Eyzaguirre, Paula Inostroza, Arturo Guerrero (RRPP vega central) y la Sra. Bernardita Domeyko, quien diseño y elaboró el árbol utilizado para colocar las fotos y nombres de los niños a los que recordábamos con la actividad.</p>
+            </div>
+
+            <div class="blog-post" id="noticias-torneo">
+              <img src="images/torneo1.jpg" alt="torneo1">
+              <h2 class="blog-post-title">ENTREGA DE BECAS PARA ESTUDIOS SUPERIORES</h2>
+              <p class="blog-post-meta">25 de Abril<a href="#noticias-torneo"></a></p>
+              <p>Con gran entusiasmo y una importante participación se llevó a cabo, el domingo 15 de abril, el XV Torneo Inter Hospitales de Futbolito y Porristas 2018, en el que participaron niños que padecen de cáncer y que son atendidos en los Hospitales Luis Calvo Mackenna, Exequiel González Cortés, San Borja Arriarán, San Juan de Dios, Sotero del Río y Gustavo Fricke.
+                A dicha actividad que se realizó en dependencias del Estadio del Banco Central y organizada por la Fundación Niño y Cáncer, llegaron cerca de 460 personas entre niños, sus padres y personal de apoyo de los distintos recintos hospitalarios.
+                El principal objetivo de esta actividad, es entregar a niños, jóvenes y sus familias una instancia recreativa; mostrarles que sufrir una enfermedad difícil como es el cáncer infantil y la leucemia, no es razón para dejar de ser optimistas, alegres y disfrutar los lindos momentos que la vida nos entrega, como es la posibilidad de jugar con jóvenes de su misma edad. Nuestro espíritu es promover una jornada de sana competencia, colaboración y fraternidad como otra forma de sanación del alma.</p>
+                <br>
+                <p>Ver a las barras de los hospitales, alentar a sus equipos, compartir animadas conversaciones durante el desayuno, almuerzo, en la cancha, ver a los niños con sus familias disfrutar de este día, es un regalo y justifica plenamente todo el esfuerzo que implica la organización de esta actividad.
+                  El torneo del futbolito tuvo las categorías infantil y mayores de 15 años, las que con muy pocos diferencias de goles se decidieron los tres primeros lugares de los Hospitales participantes y su goleador destacado por categoría.</p>
+                  <h3>Categoría infantil</h3>
+                  <ul>
+                    <li>Primer Lugar: Hospital San Borja Arriaran</li>
+                    <li>Segundo Lugar: Hospital San Juan de Dios</li>
+                    <li>Tercer Lugar: Hospital Luis Calvo Mackenna</li>
+                  </ul>
+                  <p>El premio al goleador de la Categoría fue para Lucas Navarrete Hospital San Borja Arriaran.</p>
+                  <h3>Categoría mayores de 15 años</h3>
+                  <ul>
+                    <li>Primer Lugar: Hospital Luis Calvo Mackenna</li>
+                    <li>Segundo Lugar: Hospital San Borja Arriarán</li>
+                    <li>Tercer Lugar: Hospital San Juan de Dios</li>
+                  </ul>
+                  <p>El premio al goleador de la categoría fue para José Vergara, Hospital Luis Calvo Mackenna.</p>
+                  <h3>COMPETENCIA DE PORRISTAS</h3>
+                  <p>En tanto las porristas tuvieron la oportunidad de presentar sus bailes, en las que se evaluó la presentación, coordinación y coreografías.</p>
+                  <ul>
+                    <li>Primer Lugar. Hospital Sótero del Río.</li>
+                    <li>Segundo Lugar: Hospital San Borja Arriarán.</li>
+                    <li>Tercer Lugar: Exequiel González Cortés.</li>
+                  </ul>
+                  <p>Mención honrosa para Ignacia Cortés, del Hospital Luis Calvo Mackenna por realizar su presentación en solitario.</p>
+                  <p>Nuestros especiales agradecimientos a quienes hicieron posible la realización del XV Torneo Inter Hospitales de Futbolito y Porristas 2018:</p>
+                  <ul>
+                    <li>Luz Montes de Longueira y familia.</li>
+                    <li>Waldo Mendoza y familia</li>
+                    <li>Patricio Cerda y familia</li>
+                    <li>Paula Salinas</li>
+                    <li>Víctor Casas</li>
+                    <li>ARCOR Chile</li>
+                    <li>Helados Trendy</li>
+                    <li>CCU</li>
+                    <li>Voluntarias y amigos de la Fundación Niño y Cáncer</li>
+                    <li>Estadio Banco Central y a todo su personal de cocina, aseo y portería</li>
+                  </ul>
+                </div>
+
+                <nav>
+                  <ul class="pager">
+                    <li><a href="#">Atrás</a></li>
+                    <li><a href="#">Siguiente</a></li>
+                  </ul>
+                </nav>
+
+              </div><!-- /.blog-main -->
+
+              <div class="col-md-3 col-md-offset-1 blog-sidebar">
+                <div class="sidebar-module sidebar-module-inset">
+                  <h4>Acerca de este blog</h4>
+                  <p>Este blog se creo con el propósito de entregar información a los miembros de nuestra fundación, con toda la información necesaria para mantenerlos informados.</p>
+                </div>
+                <div class="sidebar-module">
+                  <h4>Archivos</h4>
+                  <ol class="list-unstyled">
+                    <li><a href="#">Abril 2018</a></li>
+                    <li><a href="#">Marzo 2018</a></li>
+                    <li><a href="#">Febrero 2018</a></li>
+                    <li><a href="#">Enero 2018</a></li>
+                    <li><a href="#">Diciembre 2017</a></li>
+                    <li><a href="#">Noviembre 2017</a></li>
+                    <li><a href="#">Octubre 2017</a></li>
+                    <li><a href="#">Septiembre 2017</a></li>
+                    <li><a href="#">Agosto 2017</a></li>
+                    <li><a href="#">Julio 2017</a></li>
+                    <li><a href="#">Junio 2017</a></li>
+                    <li><a href="#">Mayo 2017</a></li>
+                  </ol>
+                </div>
+                <div class="sidebar-module">
+                  <h4>Elsewhere</h4>
+                  <ol class="list-unstyled">
+                    <li><a href="https://www.instagram.com/fundacionninoycancer/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/ninoycancer/">Facebook</a></li>
+                  </ol>
+                </div>
+              </div><!-- /.blog-sidebar -->
+
+            </div><!-- /.row -->
+
+          </div>
+          <!--footer-->
+          <hr>
+          <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h4>Redes Sociales</h4>
+                  <a href="https://www.facebook.com/ninoycancer/" target="_blank"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/fundacionninoycancer/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <h4>Teléfono</h4>
+                  <p>22170821 - 22170811</p>
+                </div>
+                <div class="col-md-4">
+                  <h4>Ubicanos</h4>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13326.047386104729!2d-70.5368983!3d-33.3838082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75682cb0ad81a60e!2sFundaci%C3%B3n+Ni%C3%B1o+y+Cancer!5e0!3m2!1ses!2scl!4v1527186403072" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>          </div>
+                  <div class="col-md-4">
+                    <h4>Contactate con nosotros</h4>
+                    <form class="navbar-form">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nombre">
+
+                        <input type="text" class="form-control" placeholder="Ingresa tu email...">
+                      </div>
+                      <button type="submit" class="btn btn-default">Enviar</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </body>
+          </html>
